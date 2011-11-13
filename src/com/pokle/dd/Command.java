@@ -24,7 +24,7 @@ public class Command {
                     TDate d2 = new TDate(Integer.valueOf(matcher.group(6)), Integer.valueOf(matcher.group(5)), Integer.valueOf(matcher.group(4)));
                     System.out.println(d1 + ", " + d2 + ", " + d1.diff(d2));
                 } else {
-                    System.out.println("??" + line);
+                    System.err.println("ERROR on line " + lineNumberReader.getLineNumber() + " -- " + line);
                 }
             }
 

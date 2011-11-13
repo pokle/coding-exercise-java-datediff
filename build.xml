@@ -1,6 +1,7 @@
 <project name="TDate" default="run">
 
     <target name="run" depends="compile,test">
+        <echo message="Running against sample1.csv"/>
         <java classpath="out/production" classname="com.pokle.dd.Command" input="sample1.csv"/>
     </target>
 
@@ -26,12 +27,12 @@
             </classpath>
             <classpath location="lib/junit-4.8.1.jar"/>
             <classpath location="out"/>
-            <test name="com.pokle.dd.TDateTest"/>
+            <test name="com.pokle.dd.TDateTest" todir="out/test/"/>
         </junit>
     </target>
 
     <target name="clean">
-        <deltree dir="out"/>
+        <delete dir="out"/>
     </target>
 
 
