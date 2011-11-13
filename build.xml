@@ -1,0 +1,38 @@
+<project name="TDate" default="run">
+
+    <target name="run" depends="compile,test">
+        <java classpath="out/production" classname="com.pokle.dd.Command" input="sample1.csv"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="out/production"/>
+        <javac srcdir="src" destdir="out/production" includeantruntime="false"/>
+    </target>
+
+    <target name="test" depends="compile">
+        <mkdir dir="out/test"/>
+        <javac srcdir="test" destdir="out/test" includeantruntime="false">
+            <classpath>
+                <pathelement location="lib/junit-4.8.1.jar"/>
+                <pathelement location="out/production"/>
+            </classpath>
+        </javac>
+        <junit haltonerror="true" haltonfailure="true" printsummary="true" showoutput="true">
+            <formatter type="plain" />
+            <classpath>
+                <pathelement location="lib/junit-4.8.1.jar"/>
+                <pathelement location="out/production"/>
+                <pathelement location="out/test"/>
+            </classpath>
+            <classpath location="lib/junit-4.8.1.jar"/>
+            <classpath location="out"/>
+            <test name="com.pokle.dd.TDateTest"/>
+        </junit>
+    </target>
+
+    <target name="clean">
+        <deltree dir="out"/>
+    </target>
+
+
+</project>
