@@ -45,7 +45,7 @@ public class TDateTest {
     }
 
     @Test
-    public void year2000Has366Days() {
+    public void year2000Has335DaysTillTheFirstDayOfDecember() {
         assertEquals(366 - 31, new TDate(2000, 12, 31).daysToMonthSinceYear());
     }
     
