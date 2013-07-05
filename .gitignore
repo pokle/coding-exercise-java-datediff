@@ -1,4 +1,4 @@
 .idea
-datediff.iml
-out
-
+*.iml
+build
+.gradle

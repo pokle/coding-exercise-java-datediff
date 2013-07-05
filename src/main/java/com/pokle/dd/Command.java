@@ -11,8 +11,11 @@ import java.util.regex.Pattern;
  */
 public class Command {
     private static Pattern LINE_PATTERN = Pattern.compile("(\\d{2}) (\\d{2}) (\\d{4}), (\\d{2}) (\\d{2}) (\\d{4})");
-
+    
     public static void main(String args[]) {
+
+        System.out.println("hey!");
+
 
         LineNumberReader lineNumberReader = new LineNumberReader(new InputStreamReader(System.in));
         try {
