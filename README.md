@@ -1,7 +1,7 @@
 Datediff
 ========
 
-[![Build Status](https://travis-ci.org/pokle/datediff.png)](https://travis-ci.org/pokle/datediff)
+[![Build Status](https://travis-ci.org/pokle/coding-exercise-java-datediff.svg?branch=master)](https://travis-ci.org/pokle/coding-exercise-java-datediff)
 
 This is a coding exercise I once did. It's a tool to calculate the difference between two dates in the Gregorian calendar. And it's capable of handling leap years.
 
