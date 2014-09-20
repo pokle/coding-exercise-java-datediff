@@ -1,7 +1,6 @@
 Datediff
 ========
 
-[![Circle CI Build Status](https://circleci.com/gh/pokle/datediff.png?circle-token=6b4b88a0d80e58c518f0cbdd364e5e279f8c036b)](https://circleci.com/gh/pokle/datediff)
 [![Build Status](https://travis-ci.org/pokle/datediff.png)](https://travis-ci.org/pokle/datediff)
 
 This is a coding exercise I once did. It's a tool to calculate the difference between two dates in the Gregorian calendar. And it's capable of handling leap years.
