@@ -22,5 +22,4 @@ Here's how you run it, and some sample output: (You'll need gradle)
 
 ----
 [My other coding exercises](https://github.com/search?q=user%3Apokle+coding-exercise)
-Cheers!
-Tushar
+
