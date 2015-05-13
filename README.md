@@ -20,6 +20,7 @@ Here's how you run it, and some sample output: (You'll need gradle)
 	13 11 2011, 15 11 2011, 2
 	01 01 2000, 01 01 2010, 3652
 
-
+----
+[My other coding exercises](https://github.com/search?q=user%3Apokle+coding-exercise)
 Cheers!
 Tushar
